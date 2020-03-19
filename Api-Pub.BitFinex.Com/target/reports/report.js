@@ -33,21 +33,21 @@ formatter.match({
   "location": "BitfinexStepDefnition.api_to_get_bitfinex_for_different_ticker_names()"
 });
 formatter.result({
-  "duration": 3462133039,
+  "duration": 732981684,
   "status": "passed"
 });
 formatter.match({
   "location": "BitfinexStepDefnition.user_tries_to_get_response_for_single_ticker_name()"
 });
 formatter.result({
-  "duration": 3964608274,
+  "duration": 1390204982,
   "status": "passed"
 });
 formatter.match({
   "location": "BitfinexStepDefnition.validate_the_response()"
 });
 formatter.result({
-  "duration": 14222,
+  "duration": 310772142,
   "status": "passed"
 });
 });

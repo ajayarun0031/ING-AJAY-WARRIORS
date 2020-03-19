@@ -14,7 +14,6 @@ public class BitfinexStepDefnition {
 	@Given("^Api to get bitfinex for different ticker names$")
 	public void api_to_get_bitfinex_for_different_ticker_names() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-        System.out.println("Api to get bitfinex for different ticker names");
 		
 		//initalization();
 		RestAssured.useRelaxedHTTPSValidation();
@@ -30,7 +29,7 @@ public class BitfinexStepDefnition {
 	@Then("^validate the response$")
 	public void validate_the_response() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    
+	    getdata.GetResponse();
 	}
 
 }
