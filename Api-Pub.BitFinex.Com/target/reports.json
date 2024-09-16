@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate bitfinex get request APIs",
+        "description": "",
+        "id": "pub-bitfinex-feature;validate-bitfinex-get-request-apis",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 732981684,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Api to get bitfinex for different ticker names",
+            "match": {
+              "location": "BitfinexStepDefnition.api_to_get_bitfinex_for_different_ticker_names()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1390204982,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user tries to get response for single ticker name",
+            "match": {
+              "location": "BitfinexStepDefnition.user_tries_to_get_response_for_single_ticker_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310772142,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate the response",
+            "match": {
+              "location": "BitfinexStepDefnition.validate_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "pub bitfinex feature",
+    "description": "",
+    "id": "pub-bitfinex-feature",
+    "keyword": "Feature",
+    "uri": "./src/test/java/com/bitfinex/Features/bitfinexApi.feature"
+  }
+]
